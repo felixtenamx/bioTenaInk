@@ -1,4 +1,125 @@
+/*@font-face {
+    font-family: "League Spartan", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;/*Esto quiere decir que mis pixeles por defecto serán de 10px y 1 rem siempre valdrá eso mismo*/
+    
+}
+
 body {
-    height: 100vh;
-    margin: 0;   
+    text-align: center;
+}
+/*---Cabecera---*/
+.iconList {
+    padding: 20px;
+    list-style: none;
    }
+
+.iconList ul {
+    justify-content: space-between;
+}
+
+.iconList li {
+    display: inline-block;
+
+}
+
+.instagramIcon {
+    padding-right: 20px;
+}
+
+.facebookIcon {
+    padding-right: 10px;
+}
+
+.whatsappIcon {
+    padding-left: 10px;
+}
+/*Main*/
+/*Descripción de agencia*/
+.agencyDescription {
+    padding: 20px;
+}
+.agencyDescription p{
+    font-size: 1.5rem;
+}
+
+/*Servicios*/
+.servicesList {
+    padding: 20px;
+}
+
+.servicesList h2 {
+    font-size: 2.3rem;
+    padding: 10px;
+}
+
+.servicesList li {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/*Paginas Web*/
+.webPagesList {
+    padding: 20px;
+}
+
+.webPagesList h2 {
+    font-size: 2.3rem;
+    padding: 10px;
+}
+
+.webPagesList li {
+    padding: 10px;
+}
+
+/*Bio Links*/
+.bioLinks {
+    padding: 20px;
+}
+
+.bioLinks h2 {
+    padding: 10px;
+    font-size: 2.3rem;
+}
+
+.bioLinks p {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.bioLinks li {
+    padding: 10px;
+}
+
+/*---Footer---*/
+
+footer {
+    padding: 20px;
+}
+
+.locationFooter {
+    padding: 10px;
+}
+
+.locationFooter nav {
+    padding: 10px;
+}
+
+.locationFooter h2 {
+    font-size: 2.3rem;
+}
+
+.locationFooter p {
+    font-size: 1.5rem;
+}
+
+.logoCompartir h3 {
+    font-size: 1.5rem;
+}
