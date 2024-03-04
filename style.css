@@ -20,12 +20,16 @@ body {
 
 button{
     background-color: #fcd609;
-    color: black;
     border-radius: .8rem;
     height: 5rem;
     width: 40rem;
-    text-align: center; 
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    color: #000000;
+    
 }
+
 /*---Cabecera---*/
 .logoTink img{
     margin-top: 2rem;
@@ -50,8 +54,6 @@ button{
 
 .iconList li {
     display: inline-block;
-    
-
 }
 
 .instagramIcon {
@@ -107,11 +109,11 @@ button{
 .webPagesList li {
     padding: 10px;
     list-style: none;
-    color: black;
 }
 
-.webPagesList button{
-    border: none;
+.webPagesList a{
+    text-decoration: none;
+    color: #000000;
 }
 
 /*Bio Links*/
@@ -137,8 +139,9 @@ button{
     
 }
 
-.bioLinks button {
-    border: none;
+.bioLinks a {
+    text-decoration: none;
+    color: #000000;
     
 }
 
