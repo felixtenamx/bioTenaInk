@@ -26,7 +26,6 @@ button{
     text-align: center;
     font-weight: bold;
     border: none;
-    color: #000000;
     
 }
 
@@ -76,6 +75,12 @@ button{
 .agencyDescription p{
     font-size: 1.5rem;
     margin: 2rem;
+}
+
+.youtubeVideo {
+    align-items: center;
+    margin: .5rem;
+    max-width: 60rem;
 }
 
 /*Servicios*/
@@ -166,6 +171,7 @@ footer {
 
 .locationFooter p {
     font-size: 1.5rem;
+    margin: 3rem;
 }
 
 .logoCompartir h3 {
