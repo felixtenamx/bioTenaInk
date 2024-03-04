@@ -79,8 +79,8 @@ button{
 
 .youtubeVideo {
     align-items: center;
-    margin: .5rem;
-    max-width: 60rem;
+    margin: .1rem;
+    border-radius: 5rem;
 }
 
 /*Servicios*/
@@ -93,11 +93,15 @@ button{
     padding: 10px;
     color: #fcd609;
 }
+.servicesList ol{
+    margin-left: .5rem;
+}
 
 .servicesList li {
     font-size: 1.5rem;
     padding: 10px;
 }
+
 
 /*Paginas Web*/
 .webPagesList {
@@ -203,7 +207,16 @@ footer {
         
     }
     .youtubeVideo {
-        width: 45rem;
+        margin-left: .3rem;
+        width: 330;
+    }
+    .iframeYoutube {
+        width: 40rem;
+        border-radius: 10px;
+    }
+    .googleMapsFrame{
+        width: 30rem;
+        border-radius: 20px;
     }
 
    
