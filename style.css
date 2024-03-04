@@ -183,6 +183,10 @@ footer {
     color: #fcd609;
 }
 
+.hechoPorTink{
+    margin-top: 2rem;
+}
+
 @media screen and (max-width: 768px) {
     * {
         margin: 0;
@@ -218,6 +222,7 @@ footer {
         width: 30rem;
         border-radius: 20px;
     }
+
 
    
 }
