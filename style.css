@@ -83,6 +83,10 @@ button{
     border-radius: 5rem;
 }
 
+.iframeYoutube{
+    border-radius: 10px;
+}
+
 /*Servicios*/
 .servicesList {
     padding: 20px;
@@ -177,6 +181,10 @@ footer {
 .locationFooter p {
     font-size: 1.5rem;
     margin: 3rem;
+}
+
+.googleMapsFrame{
+    border-radius: 20px;
 }
 
 .logoCompartir h3 {
