@@ -11,7 +11,7 @@
 }
 html {
     font-size: 62.5%;/*Esto quiere decir que mis pixeles por defecto serán de 10px y 1 rem siempre valdrá eso mismo*/
-    background-image: url('https://cdn2.lnk.bi/bg/-1771979_240109073756_d_392.png');
+    background-image: url('https://bio.tena.ink/assets/fondoEscritorio.webp');
 }
 
 body {
@@ -163,6 +163,7 @@ button{
 
 footer {
     padding: 20px;
+    display: flex;
 }
 
 .locationFooter {
@@ -183,7 +184,7 @@ footer {
     margin: 3rem;
 }
 
-.googleMapsFrame{
+.footerMapa{
     border-radius: 20px;
 }
 
@@ -193,7 +194,7 @@ footer {
 }
 
 .hechoPorTink{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 @media screen and (max-width: 768px) {
