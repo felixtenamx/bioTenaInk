@@ -11,7 +11,7 @@
 }
 html {
     font-size: 62.5%;/*Esto quiere decir que mis pixeles por defecto serán de 10px y 1 rem siempre valdrá eso mismo*/
-    background-image: url('https://bio.tena.ink/assets/fondoEscritorio.webp');
+    background-color: #ffffff   ;
 }
 
 body {
@@ -19,12 +19,14 @@ body {
 }
 
 button{
-    background-color: #fcd609;
-    border-radius: .8rem;
+    background-color: #ffffff;
+    box-shadow: black 0 0.8rem 4rem;
+    border-radius: 3rem;
     height: 5rem;
     width: 40rem;
     text-align: center;
     font-weight: bold;
+    font-size: 1.5rem;
     border: none;
     
 }
@@ -36,92 +38,66 @@ button{
     border-radius: 10rem;
 }
 
+.generalHeader ul{
+    width: 100%;
+}
+
 .generalHeader h3{
     margin: 2rem;
     margin-top: 2rem;
-    font-size: 1.5rem;
-    color: #fcd609;
+    font-size: 2rem;
+    color: #000000;
 }
+
+.generalHeader p{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
 .iconList {
     padding: 0.5rem;
     list-style: none;
    }
 
-.iconList ul {
-    justify-content: space-between;
-}
-
 .iconList li {
     display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
-.instagramIcon {
-    padding-right: 20px;
-    
+.iconList a{
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
-.facebookIcon {
-    padding-right: 10px;
-}
-
-.whatsappIcon {
-    padding-left: 10px;
-}
 /*Main*/
-/*Descripción de agencia*/
-.agencyDescription {
-    padding: 2rem;
-}
-.agencyDescription p{
-    font-size: 1.5rem;
-    margin: 2rem;
-}
-
-.youtubeVideo {
-    align-items: center;
-    margin: .1rem;
-    border-radius: 5rem;
-}
-
-.iframeYoutube{
-    border-radius: 10px;
-}
-
-/*Servicios*/
-.servicesList {
-    padding: 20px;
-}
-
-.servicesList h2 {
-    font-size: 2.3rem;
-    padding: 10px;
-    color: #fcd609;
-}
-.servicesList ol{
-    margin-left: .5rem;
-}
-
-.servicesList li {
-    font-size: 1.5rem;
-    padding: 10px;
-    list-style: none;
-}
-
 
 /*Paginas Web*/
 .webPagesList {
     padding: 20px;
-    
 }
+
 
 .webPagesList h2 {
     font-size: 2.3rem;
-    padding: 10px;
-    color: #fcd609
+    font-weight: 1000;
+    padding-bottom: 5rem;
+    color: black;
+}
+
+.webPagesList ul{
+    width: 100%;
 }
 
 .webPagesList li {
-    padding: 10px;
+    padding-bottom: 4rem;
     list-style: none;
 }
 
@@ -130,44 +106,14 @@ button{
     color: #000000;
 }
 
-/*Bio Links*/
-.bioLinks {
-    padding: 20px;
-}
-
-.bioLinks h2 {
-    padding: 10px;
-    font-size: 2.3rem;
-    color: #fcd609
-}
-
-.bioLinks p {
-    padding: 10px;
-    font-size: 1.5rem;
-}
-
-.bioLinks li {
-    padding: 10px;
-    list-style: none;
-
-    
-}
-
-.bioLinks a {
-    text-decoration: none;
-    color: #000000;
-    
-}
-
 /*---Footer---*/
-
 footer {
-    padding: 20px;
-    display: flex;
+    background-color: #000000;
+    padding: 2rem;
 }
 
 .locationFooter {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .locationFooter nav {
@@ -184,8 +130,12 @@ footer {
     margin: 3rem;
 }
 
-.footerMapa{
-    border-radius: 20px;
+.footerMapa iframe{
+    align-items: center;
+    width: 40rem;
+    height:30rem;
+    border:0;
+    border-radius: 2rem;
 }
 
 .logoCompartir h3 {
@@ -193,40 +143,14 @@ footer {
     color: #fcd609;
 }
 
-.hechoPorTink{
+.hechoPorTink p{
     margin-top: 3rem;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'League Spartan', sans-serif;
-        color: #ffffff;
-    }
-    html {
-        background-image: url('https://cdn2.lnk.bi/bg/-1771979_240109073627_m_337.png');
-    }
-    body {
-        text-align: center;
-    }
-    
     .webPagesList button {
         width: 30rem;
-    }
-
-    .bioLinks button {
-        width: 30rem;
-        
-    }
-    .youtubeVideo {
-        margin-left: .3rem;
-        width: 330;
-    }
-    .iframeYoutube {
-        width: 40rem;
-        border-radius: 10px;
     }
     .googleMapsFrame{
         width: 30rem;
