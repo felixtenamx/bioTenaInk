@@ -23,3 +23,28 @@ btnRechazarCookies.addEventListener('click', () => {
     
     // Aquí puedes desactivar las cookies no esenciales
 });
+
+fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+            // Inicializar el menú hamburguesa DESPUÉS de cargar el header
+            initializeHamburgerMenu();
+        })
+        .catch(error => console.error('Error cargando el header:', error));
+
+    // Cargar el footer
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        })
+        .catch(error => console.error('Error cargando el footer:', error));
+
+    // Cargar el politica de cookies
+    fetch('politicaCookies.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('cookies-placeholder').innerHTML = data;
+        })
+        .catch(error => console.error('Error cargando la Política de Cookies:', error));
