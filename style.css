@@ -168,7 +168,7 @@ footer {
 }
 
 .aviso-cookies.activo {
-    display: block; /* Visible cuando tiene la clase activo */
+    display: block; /* Visible cuando tiene la clase activo*/
 }
 
 .contenido-cookies {
@@ -264,7 +264,7 @@ footer {
 }
 
 .fondo-aviso-cookies.activo {
-    display: block; /* Visible cuando tiene la clase activo */
+    display: block; /* Visible cuando tiene la clase activo*/
 }
 
 @media (max-width: 768px) {
@@ -281,9 +281,7 @@ footer {
         width: 100%;
         justify-content: center;
     }
-}
 
-@media screen and (max-width: 768px) {
     .webPagesList button {
         width: 30rem;
     }
