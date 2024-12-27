@@ -145,7 +145,142 @@ footer {
 
 .hechoPorTink p{
     margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: 1.5rem;
+}
+
+.hechoPorTink a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* -- Cookies -- */
+.aviso-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0px -2px 5px rgba(0,0,0,0.2);
+    z-index: 999;
+    display: none;
+}
+
+.aviso-cookies.activo {
+    display: block; /* Visible cuando tiene la clase activo */
+}
+
+.contenido-cookies {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.galleta {
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.texto-cookies {
+    flex: 1;
+    text-align: left;
+    min-width: 20rem;
+    color: black;
+}
+
+.titulo {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.parrafo {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.botones {
+    display: flex;
+    gap: 2rem;
+}
+
+.boton {
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.aceptar {
+    background: black;
+    color: white;
+}
+
+.rechazar {
+    background: black;
+    color: white;
+
+}
+
+.aceptar:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.rechazar:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.enlace {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.4rem;
+    
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+
+.fondo-aviso-cookies {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 998;
+    display: none;
+}
+
+.fondo-aviso-cookies.activo {
+    display: block; /* Visible cuando tiene la clase activo */
+}
+
+@media (max-width: 768px) {
+    .contenido-cookies {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .texto-cookies {
+        text-align: center;
+    }
+    
+    .botones {
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -157,6 +292,37 @@ footer {
         border-radius: 20px;
     }
 
-
+    .contenido-cookies {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .texto-cookies {
+        text-align: center;
+    }
+        
+    .botones {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .galleta {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .titulo {
+        font-size: 1.8rem;
+    }
+    
+    .parrafo {
+        font-size: 1.2rem;
+    }
+    
+    .boton {
+        font-size: 1.3rem;
+        padding: 0.8rem 1.6rem;
+    }
+    
    
 }
