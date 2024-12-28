@@ -1,6 +1,7 @@
 # bioTenaInk
 Pagina de biografía de bio.tena.ink
-Esta página web es una página de biografía donde se pueden colocar diferentes links.
+
+Esta página web es una página de biografía donde se pueden colocar diferentes links de varias redes sociales, stores y más. En este caso yo la uso como un tipo de curriculum vitae (resume) online para mostrar lo que he hecho y cómo voy avanzando en mi vida profesional.
 
 El código en HTML esta hecho por archivos separados donde todo se une por medio del JS, hay un archivo para el footer, un archivo para el header, uno para la política de cookies, uno para el CSS y uno para el JS.
 
