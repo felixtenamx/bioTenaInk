@@ -49,6 +49,13 @@ button{
     color: #000000;
 }
 
+.generalHeader h2{
+    margin: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
 .generalHeader p{
     color: #000000;
     font-size: 1.5rem;
